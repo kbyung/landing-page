@@ -13,6 +13,7 @@ body {
     padding: 30px;
 }
 
+
 .logo {
     font-size: 24px;
     color: #f9faf8;
@@ -32,9 +33,50 @@ body {
     gap: 16px;
 }
 
-a {
+.section1 .subtext, a {
     /* this removes the line under our links */
     text-decoration: none;
     font-size: 18px;
     color: #f9faf8;
   }
+
+.section1 {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+
+.main-text {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+.text_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 500px;
+    padding: 20px;
+}
+
+.section1_image {
+    width: 500px; 
+    height: auto;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 10px;
+
+}
+ 
