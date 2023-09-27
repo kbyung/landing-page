@@ -1,6 +1,7 @@
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
+  background-color: #1F2937;
 }
 
 
@@ -42,33 +43,43 @@ body {
 
 .section1 {
     display: flex;
-    background-color: #1F2937;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
 }
-
 
 .main-text {
     font-size: 48px;
-    font-weight:bolder;
-    color: #f9faf8;
+    font-weight: bolder;
+    color:#f9faf8;
 }
 
-.text_section {
+.subtext {
+    margin-left: 90px;
+}
+
+.content-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.content-left {
     display: flex;
     flex-direction: column;
+    width: 50%;
     justify-content: center;
-    align-items: flex-start;
-    width: 350px;
-    height: 500px;
-    padding: 20px;
+    align-items: center;
+    margin-left: 70px;
 }
 
 .section1_image {
-    width: 500px; 
-    height: auto;
+    margin: 50px;
+    width: 400px;
 }
+
 
 .sign-up {
     background-color: #3882F6;
@@ -79,4 +90,119 @@ body {
     border-radius: 10px;
 
 }
+
+.info div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .info h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+  }
+  
+  .info-boxes img {
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    padding: 16px;
+    height: 100px;
+    flex: auto;
+  }
+  
+  .info-boxes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    margin-top: 16px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 64px;
+  }
+  
+  .quote h6,
+  .quote p {
+    margin: 0;
+    padding: 0;
+    max-width: 66%;
+    width: 100%;
+  }
+  
+  .quote h6 {
+    text-align: end;
+    color: #1f2937;
+  }
+  
+  .quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    padding: 128px 0;
+    height: 100%;
+  }
+  
+  .modal-mom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0;
+  }
+  
+  button,
+  .modal {
+    background-color: #3882f6;
+    border-radius: 6px;
+    border: none;
+    color: #f9faf8;
+  }
+  
+  .modal button {
+    border: 2px solid white;
+  }
+  
+  .modal-info h3,
+  .modal-info p {
+    margin: 0;
+  }
+  
+  .modal-info p {
+    margin-top: 8px;
+  }
+  
+  .modal-info {
+    flex: auto;
+  }
+  
+  .modal {
+    max-width: 66%;
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    padding: 48px 8%;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  footer {
+    color: #e5e7eb;
+    text-align: center;
+    padding: 16px;
+  }
  
